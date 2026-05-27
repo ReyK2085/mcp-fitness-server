@@ -1,0 +1,22 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Python: Attach (debugpy@5678)",
+//       "type": "debugpy",
+//       "request": "attach",
+//       "connect": { "host": "127.0.0.1", "port": 5678 },
+//       "justMyCode": true,
+//       "logToFile": false
+//     }
+//   ]
+// }
+
+{
+  "name": "Python: converter_stdio_server.py",
+  "type": "python",
+  "request": "launch",
+  "program": "${workspaceFolder}/converter_stdio_server.py",
+  "console": "integratedTerminal",
+  "justMyCode": true
+}
