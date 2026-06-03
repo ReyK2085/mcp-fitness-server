@@ -237,3 +237,651 @@
 2026-03-09 14:31:44,726 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
 2026-03-09 14:31:44,726 [INFO] uvicorn.error: Application startup complete.
 2026-03-09 14:31:44,730 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 11:26:03,421 [INFO] uvicorn.error: Started server process [12756]
+2026-05-27 11:26:03,422 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 11:26:03,424 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 11:26:03,424 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 11:26:03,430 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 11:26:03,430 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 11:26:03,430 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 11:26:03,473 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 11:26:55,895 [INFO] uvicorn.error: Shutting down
+2026-05-27 11:26:56,005 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-05-27 11:26:56,007 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2026-05-27 11:26:56,008 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager shutting down
+2026-05-27 11:26:56,008 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2026-05-27 11:26:56,010 [TRACE] uvicorn.asgi: ASGI [1] Completed
+2026-05-27 11:26:56,010 [INFO] uvicorn.error: Application shutdown complete.
+2026-05-27 11:26:56,010 [INFO] uvicorn.error: Finished server process [12756]
+2026-05-27 11:27:04,473 [INFO] uvicorn.error: Started server process [12548]
+2026-05-27 11:27:04,473 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 11:27:04,476 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 11:27:04,477 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 11:27:04,487 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 11:27:04,487 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 11:27:04,487 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 11:27:04,505 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 11:27:11,232 [TRACE] uvicorn.error: ::1:53992 - HTTP connection made
+2026-05-27 11:27:11,234 [TRACE] uvicorn.error: ::1:62326 - HTTP connection made
+2026-05-27 11:27:11,256 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [2] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 53992), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:27:11,256 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [2] Send {'type': 'http.response.start', 'status': 404, 'headers': '<...>'}
+2026-05-27 11:27:11,256 [INFO] uvicorn.access: ::1:53992 - "GET / HTTP/1.1" 404
+2026-05-27 11:27:11,259 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [2] Send {'type': 'http.response.body', 'body': '<22 bytes>'}
+2026-05-27 11:27:11,260 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [2] Completed
+2026-05-27 11:27:12,346 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [3] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 53992), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/favicon.ico', 'raw_path': b'/favicon.ico', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:27:12,348 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [3] Send {'type': 'http.response.start', 'status': 404, 'headers': '<...>'}
+2026-05-27 11:27:12,348 [INFO] uvicorn.access: ::1:53992 - "GET /favicon.ico HTTP/1.1" 404
+2026-05-27 11:27:12,350 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [3] Send {'type': 'http.response.body', 'body': '<22 bytes>'}
+2026-05-27 11:27:12,351 [TRACE] uvicorn.asgi: ::1:53992 - ASGI [3] Completed
+2026-05-27 11:27:17,349 [TRACE] uvicorn.error: ::1:53992 - HTTP connection lost
+2026-05-27 11:28:33,402 [TRACE] uvicorn.error: ::1:62326 - HTTP connection lost
+2026-05-27 11:28:37,164 [TRACE] uvicorn.error: ::1:52682 - HTTP connection made
+2026-05-27 11:28:37,166 [TRACE] uvicorn.error: ::1:61391 - HTTP connection made
+2026-05-27 11:28:37,174 [TRACE] uvicorn.asgi: ::1:52682 - ASGI [4] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 52682), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/docsd', 'raw_path': b'/docsd', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:28:37,174 [TRACE] uvicorn.asgi: ::1:52682 - ASGI [4] Send {'type': 'http.response.start', 'status': 404, 'headers': '<...>'}
+2026-05-27 11:28:37,176 [INFO] uvicorn.access: ::1:52682 - "GET /docsd HTTP/1.1" 404
+2026-05-27 11:28:37,176 [TRACE] uvicorn.asgi: ::1:52682 - ASGI [4] Send {'type': 'http.response.body', 'body': '<22 bytes>'}
+2026-05-27 11:28:37,178 [TRACE] uvicorn.asgi: ::1:52682 - ASGI [4] Completed
+2026-05-27 11:28:42,170 [TRACE] uvicorn.error: ::1:52682 - HTTP connection lost
+2026-05-27 11:28:42,254 [TRACE] uvicorn.error: ::1:53031 - HTTP connection made
+2026-05-27 11:28:42,256 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [5] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 61391), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/docs', 'raw_path': b'/docs', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:28:42,258 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [5] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:28:42,258 [INFO] uvicorn.access: ::1:61391 - "GET /docs HTTP/1.1" 200
+2026-05-27 11:28:42,259 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [5] Send {'type': 'http.response.body', 'body': '<1036 bytes>'}
+2026-05-27 11:28:42,259 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [5] Completed
+2026-05-27 11:28:42,788 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [6] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 61391), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/openapi.json', 'raw_path': b'/openapi.json', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:28:42,788 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [6] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:28:42,789 [INFO] uvicorn.access: ::1:61391 - "GET /openapi.json HTTP/1.1" 200
+2026-05-27 11:28:42,789 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [6] Send {'type': 'http.response.body', 'body': '<2328 bytes>'}
+2026-05-27 11:28:42,789 [TRACE] uvicorn.asgi: ::1:61391 - ASGI [6] Completed
+2026-05-27 11:28:47,794 [TRACE] uvicorn.error: ::1:61391 - HTTP connection lost
+2026-05-27 11:29:44,674 [TRACE] uvicorn.error: ::1:53031 - HTTP connection lost
+2026-05-27 11:39:21,701 [INFO] uvicorn.error: Started server process [27548]
+2026-05-27 11:39:21,703 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 11:39:21,703 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 11:39:21,703 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 11:39:21,711 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 11:39:21,711 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 11:39:21,711 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 11:39:21,726 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 11:41:00,001 [TRACE] uvicorn.error: ::1:61216 - HTTP connection made
+2026-05-27 11:42:15,161 [TRACE] uvicorn.error: ::1:61216 - HTTP connection lost
+2026-05-27 11:44:10,079 [TRACE] uvicorn.error: ::1:55391 - HTTP connection made
+2026-05-27 11:44:10,079 [TRACE] uvicorn.asgi: ::1:55391 - ASGI [2] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 55391), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,079 [TRACE] uvicorn.asgi: ::1:55391 - ASGI [2] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:10,079 [INFO] uvicorn.access: ::1:55391 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:10,086 [TRACE] uvicorn.asgi: ::1:55391 - ASGI [2] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:10,088 [TRACE] uvicorn.asgi: ::1:55391 - ASGI [2] Completed
+2026-05-27 11:44:10,092 [TRACE] uvicorn.error: ::1:55391 - HTTP connection lost
+2026-05-27 11:44:10,094 [TRACE] uvicorn.error: ::1:55392 - HTTP connection made
+2026-05-27 11:44:10,094 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 55392), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,094 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: 9dc26082eac64a199369af523157798c
+2026-05-27 11:44:10,103 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Receive {'type': 'http.request', 'body': '<330 bytes>', 'more_body': False}
+2026-05-27 11:44:10,107 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:10,107 [INFO] uvicorn.access: ::1:55392 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:10,133 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Send {'type': 'http.response.body', 'body': '<453 bytes>', 'more_body': True}
+2026-05-27 11:44:10,139 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:10,141 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Receive {'type': 'http.disconnect'}
+2026-05-27 11:44:10,145 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [3] Completed
+2026-05-27 11:44:10,196 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [4] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 55392), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,211 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [4] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:10,219 [INFO] uvicorn.access: ::1:55392 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:10,221 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [4] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:10,240 [TRACE] uvicorn.asgi: ::1:55392 - ASGI [4] Completed
+2026-05-27 11:44:10,257 [TRACE] uvicorn.error: ::1:55392 - HTTP connection lost
+2026-05-27 11:44:10,262 [TRACE] uvicorn.error: ::1:57815 - HTTP connection made
+2026-05-27 11:44:10,272 [TRACE] uvicorn.error: ::1:57816 - HTTP connection made
+2026-05-27 11:44:10,282 [TRACE] uvicorn.asgi: ::1:57815 - ASGI [5] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57815), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,292 [TRACE] uvicorn.asgi: ::1:57815 - ASGI [5] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:10,298 [INFO] uvicorn.access: ::1:57815 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:10,302 [TRACE] uvicorn.asgi: ::1:57815 - ASGI [5] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:10,307 [TRACE] uvicorn.asgi: ::1:57815 - ASGI [5] Completed
+2026-05-27 11:44:10,312 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [6] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57816), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,318 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [6] Receive {'type': 'http.request', 'body': '<54 bytes>', 'more_body': False}
+2026-05-27 11:44:10,321 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [6] Send {'type': 'http.response.start', 'status': <HTTPStatus.ACCEPTED: 202>, 'headers': '<...>'}
+2026-05-27 11:44:10,322 [INFO] uvicorn.access: ::1:57816 - "POST /mcp/ HTTP/1.1" 202
+2026-05-27 11:44:10,326 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [6] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:10,332 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [6] Completed
+2026-05-27 11:44:10,334 [TRACE] uvicorn.error: ::1:57815 - HTTP connection lost
+2026-05-27 11:44:10,336 [TRACE] uvicorn.error: ::1:57817 - HTTP connection made
+2026-05-27 11:44:10,340 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [7] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57816), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,340 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [7] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:10,342 [INFO] uvicorn.access: ::1:57816 - "GET /mcp HTTP/1.1" 307
+2026-05-27 11:44:10,344 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [7] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:10,344 [TRACE] uvicorn.asgi: ::1:57816 - ASGI [7] Completed
+2026-05-27 11:44:10,346 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57817), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,350 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Receive {'type': 'http.request', 'body': '<79 bytes>', 'more_body': False}
+2026-05-27 11:44:10,357 [TRACE] uvicorn.error: ::1:57816 - HTTP connection lost
+2026-05-27 11:44:10,365 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:10,367 [INFO] uvicorn.access: ::1:57817 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:10,371 [TRACE] uvicorn.error: ::1:57818 - HTTP connection made
+2026-05-27 11:44:10,375 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57818), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:10,379 [INFO] mcp.server.lowlevel.server: Processing request of type SetLevelRequest
+2026-05-27 11:44:10,381 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:10,381 [INFO] uvicorn.access: ::1:57818 - "GET /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:10,386 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:10,388 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Send {'type': 'http.response.body', 'body': '<62 bytes>', 'more_body': True}
+2026-05-27 11:44:10,389 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:10,391 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Receive {'type': 'http.disconnect'}
+2026-05-27 11:44:10,393 [TRACE] uvicorn.asgi: ::1:57817 - ASGI [8] Completed
+2026-05-27 11:44:15,393 [TRACE] uvicorn.error: ::1:57817 - HTTP connection lost
+2026-05-27 11:44:25,415 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:44:33,251 [TRACE] uvicorn.error: ::1:62877 - HTTP connection made
+2026-05-27 11:44:33,255 [TRACE] uvicorn.asgi: ::1:62877 - ASGI [10] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62877), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:33,255 [TRACE] uvicorn.asgi: ::1:62877 - ASGI [10] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:33,257 [INFO] uvicorn.access: ::1:62877 - "GET /mcp HTTP/1.1" 307
+2026-05-27 11:44:33,258 [TRACE] uvicorn.asgi: ::1:62877 - ASGI [10] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:33,261 [TRACE] uvicorn.asgi: ::1:62877 - ASGI [10] Completed
+2026-05-27 11:44:33,261 [TRACE] uvicorn.error: ::1:62877 - HTTP connection lost
+2026-05-27 11:44:33,261 [TRACE] uvicorn.error: ::1:62878 - HTTP connection made
+2026-05-27 11:44:33,263 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [11] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62878), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:33,265 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: 917346094be942f3a51d719db3f20b02
+2026-05-27 11:44:33,269 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [11] Send {'type': 'http.response.start', 'status': <HTTPStatus.BAD_REQUEST: 400>, 'headers': '<...>'}
+2026-05-27 11:44:33,271 [INFO] uvicorn.access: ::1:62878 - "GET /mcp/ HTTP/1.1" 400
+2026-05-27 11:44:33,271 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [11] Send {'type': 'http.response.body', 'body': '<105 bytes>'}
+2026-05-27 11:44:33,273 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [11] Completed
+2026-05-27 11:44:35,855 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [12] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62878), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:35,855 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [12] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:35,855 [INFO] uvicorn.access: ::1:62878 - "GET /mcp HTTP/1.1" 307
+2026-05-27 11:44:35,860 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [12] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:35,860 [TRACE] uvicorn.asgi: ::1:62878 - ASGI [12] Completed
+2026-05-27 11:44:35,860 [TRACE] uvicorn.error: ::1:62878 - HTTP connection lost
+2026-05-27 11:44:35,863 [TRACE] uvicorn.error: ::1:62881 - HTTP connection made
+2026-05-27 11:44:35,863 [TRACE] uvicorn.asgi: ::1:62881 - ASGI [13] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62881), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:35,863 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: 998a59cdedd94d2bab336c1f37cf66d9
+2026-05-27 11:44:35,863 [TRACE] uvicorn.asgi: ::1:62881 - ASGI [13] Send {'type': 'http.response.start', 'status': <HTTPStatus.BAD_REQUEST: 400>, 'headers': '<...>'}
+2026-05-27 11:44:35,869 [INFO] uvicorn.access: ::1:62881 - "GET /mcp/ HTTP/1.1" 400
+2026-05-27 11:44:35,869 [TRACE] uvicorn.asgi: ::1:62881 - ASGI [13] Send {'type': 'http.response.body', 'body': '<105 bytes>'}
+2026-05-27 11:44:35,875 [TRACE] uvicorn.asgi: ::1:62881 - ASGI [13] Completed
+2026-05-27 11:44:40,426 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:44:40,885 [TRACE] uvicorn.error: ::1:62881 - HTTP connection lost
+2026-05-27 11:44:41,578 [TRACE] uvicorn.error: ::1:62886 - HTTP connection made
+2026-05-27 11:44:41,578 [TRACE] uvicorn.asgi: ::1:62886 - ASGI [14] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62886), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,584 [TRACE] uvicorn.asgi: ::1:62886 - ASGI [14] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:41,584 [INFO] uvicorn.access: ::1:62886 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:41,586 [TRACE] uvicorn.asgi: ::1:62886 - ASGI [14] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:41,586 [TRACE] uvicorn.asgi: ::1:62886 - ASGI [14] Completed
+2026-05-27 11:44:41,589 [TRACE] uvicorn.error: ::1:62886 - HTTP connection lost
+2026-05-27 11:44:41,591 [TRACE] uvicorn.error: ::1:62887 - HTTP connection made
+2026-05-27 11:44:41,591 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62887), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,595 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: 0fb4a3da7e1944f49e7a7486a6387bae
+2026-05-27 11:44:41,597 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Receive {'type': 'http.request', 'body': '<330 bytes>', 'more_body': False}
+2026-05-27 11:44:41,599 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:41,599 [INFO] uvicorn.access: ::1:62887 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:41,603 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Send {'type': 'http.response.body', 'body': '<453 bytes>', 'more_body': True}
+2026-05-27 11:44:41,605 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:41,610 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Receive {'type': 'http.disconnect'}
+2026-05-27 11:44:41,611 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [15] Completed
+2026-05-27 11:44:41,620 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [16] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62887), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,620 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [16] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:41,621 [INFO] uvicorn.access: ::1:62887 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:41,621 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [16] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:41,625 [TRACE] uvicorn.asgi: ::1:62887 - ASGI [16] Completed
+2026-05-27 11:44:41,627 [TRACE] uvicorn.error: ::1:62887 - HTTP connection lost
+2026-05-27 11:44:41,627 [TRACE] uvicorn.error: ::1:62888 - HTTP connection made
+2026-05-27 11:44:41,629 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [17] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62888), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,631 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [17] Receive {'type': 'http.request', 'body': '<54 bytes>', 'more_body': False}
+2026-05-27 11:44:41,631 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [17] Send {'type': 'http.response.start', 'status': <HTTPStatus.ACCEPTED: 202>, 'headers': '<...>'}
+2026-05-27 11:44:41,631 [INFO] uvicorn.access: ::1:62888 - "POST /mcp/ HTTP/1.1" 202
+2026-05-27 11:44:41,631 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [17] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:41,634 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [17] Completed
+2026-05-27 11:44:41,636 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [18] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62888), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,638 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [18] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:41,638 [INFO] uvicorn.access: ::1:62888 - "GET /mcp HTTP/1.1" 307
+2026-05-27 11:44:41,639 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [18] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:41,639 [TRACE] uvicorn.asgi: ::1:62888 - ASGI [18] Completed
+2026-05-27 11:44:41,640 [TRACE] uvicorn.error: ::1:62888 - HTTP connection lost
+2026-05-27 11:44:41,642 [TRACE] uvicorn.error: ::1:62889 - HTTP connection made
+2026-05-27 11:44:41,642 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 62889), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,644 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:41,644 [INFO] uvicorn.access: ::1:62889 - "GET /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:41,646 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:41,664 [TRACE] uvicorn.error: ::1:56212 - HTTP connection made
+2026-05-27 11:44:41,666 [TRACE] uvicorn.asgi: ::1:56212 - ASGI [20] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 56212), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,669 [TRACE] uvicorn.asgi: ::1:56212 - ASGI [20] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 11:44:41,669 [INFO] uvicorn.access: ::1:56212 - "POST /mcp HTTP/1.1" 307
+2026-05-27 11:44:41,670 [TRACE] uvicorn.asgi: ::1:56212 - ASGI [20] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 11:44:41,670 [TRACE] uvicorn.asgi: ::1:56212 - ASGI [20] Completed
+2026-05-27 11:44:41,671 [TRACE] uvicorn.error: ::1:56212 - HTTP connection lost
+2026-05-27 11:44:41,673 [TRACE] uvicorn.error: ::1:56213 - HTTP connection made
+2026-05-27 11:44:41,673 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 56213), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 11:44:41,675 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Receive {'type': 'http.request', 'body': '<79 bytes>', 'more_body': False}
+2026-05-27 11:44:41,676 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 11:44:41,676 [INFO] uvicorn.access: ::1:56213 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 11:44:41,678 [INFO] mcp.server.lowlevel.server: Processing request of type SetLevelRequest
+2026-05-27 11:44:41,679 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Send {'type': 'http.response.body', 'body': '<62 bytes>', 'more_body': True}
+2026-05-27 11:44:41,680 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 11:44:41,680 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Receive {'type': 'http.disconnect'}
+2026-05-27 11:44:41,685 [TRACE] uvicorn.asgi: ::1:56213 - ASGI [21] Completed
+2026-05-27 11:44:46,689 [TRACE] uvicorn.error: ::1:56213 - HTTP connection lost
+2026-05-27 11:44:55,429 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:44:56,647 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:10,420 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:11,644 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:25,427 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:26,651 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:40,427 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:41,660 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:55,536 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:45:56,670 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:10,552 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:11,704 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:25,557 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:26,758 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:40,576 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:41,778 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:55,568 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:46:56,805 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:10,574 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:11,822 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:25,583 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:26,850 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:40,586 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:41,850 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:55,600 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:47:56,845 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:10,610 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:11,840 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:25,644 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:26,841 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:40,666 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:41,854 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:55,680 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:48:56,864 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:10,684 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:11,873 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:25,705 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:26,897 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:40,722 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:41,929 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:55,743 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:49:56,926 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:10,738 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:11,911 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:25,755 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:26,927 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:40,779 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:41,920 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:55,793 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:50:56,920 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:10,797 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:11,943 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:25,793 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:26,953 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:40,798 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:41,941 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:55,831 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:51:56,956 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:10,824 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:11,969 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:25,844 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:26,969 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:40,844 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:41,972 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:55,865 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:52:56,978 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:10,872 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:12,002 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:25,900 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:27,023 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:40,917 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:42,031 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:55,943 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:53:57,038 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:54:10,958 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:54:12,086 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:54:25,990 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:54:27,102 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 11:54:29,409 [INFO] uvicorn.error: Shutting down
+2026-05-27 11:54:29,492 [TRACE] uvicorn.asgi: ::1:57818 - ASGI [9] Completed
+2026-05-27 11:54:29,492 [ERROR] uvicorn.error: ASGI callable returned without completing response.
+2026-05-27 11:54:29,494 [TRACE] uvicorn.asgi: ::1:62889 - ASGI [19] Completed
+2026-05-27 11:54:29,494 [ERROR] uvicorn.error: ASGI callable returned without completing response.
+2026-05-27 11:54:29,496 [TRACE] uvicorn.error: ::1:57818 - HTTP connection lost
+2026-05-27 11:54:29,497 [TRACE] uvicorn.error: ::1:62889 - HTTP connection lost
+2026-05-27 11:54:29,505 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-05-27 11:54:29,507 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2026-05-27 11:54:29,507 [INFO] mcp.server.streamable_http: Terminating session: 9dc26082eac64a199369af523157798c
+2026-05-27 11:54:29,507 [INFO] mcp.server.streamable_http: Terminating session: 917346094be942f3a51d719db3f20b02
+2026-05-27 11:54:29,510 [INFO] mcp.server.streamable_http: Terminating session: 998a59cdedd94d2bab336c1f37cf66d9
+2026-05-27 11:54:29,510 [INFO] mcp.server.streamable_http: Terminating session: 0fb4a3da7e1944f49e7a7486a6387bae
+2026-05-27 11:54:29,510 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager shutting down
+2026-05-27 11:54:29,511 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2026-05-27 11:54:29,511 [TRACE] uvicorn.asgi: ASGI [1] Completed
+2026-05-27 11:54:29,511 [INFO] uvicorn.error: Application shutdown complete.
+2026-05-27 11:54:29,511 [INFO] uvicorn.error: Finished server process [27548]
+2026-05-27 11:58:35,789 [INFO] uvicorn.error: Started server process [3428]
+2026-05-27 11:58:35,791 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 11:58:35,791 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 11:58:35,793 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 11:58:35,800 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 11:58:35,833 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 11:58:35,834 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 11:58:35,857 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 11:59:50,389 [INFO] uvicorn.error: Started server process [22592]
+2026-05-27 11:59:50,389 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 11:59:50,391 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 11:59:50,391 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 11:59:50,403 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 11:59:50,403 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 11:59:50,405 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 11:59:50,458 [ERROR] uvicorn.error: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8003): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-05-27 11:59:50,458 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-05-27 11:59:50,460 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2026-05-27 11:59:50,460 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager shutting down
+2026-05-27 11:59:50,462 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2026-05-27 11:59:50,464 [TRACE] uvicorn.asgi: ASGI [1] Completed
+2026-05-27 11:59:50,464 [INFO] uvicorn.error: Application shutdown complete.
+2026-05-27 12:00:17,675 [INFO] uvicorn.error: Shutting down
+2026-05-27 12:00:17,787 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-05-27 12:00:17,790 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2026-05-27 12:00:17,790 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager shutting down
+2026-05-27 12:00:17,793 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2026-05-27 12:00:17,796 [TRACE] uvicorn.asgi: ASGI [1] Completed
+2026-05-27 12:00:17,796 [INFO] uvicorn.error: Application shutdown complete.
+2026-05-27 12:00:17,796 [INFO] uvicorn.error: Finished server process [3428]
+2026-05-27 12:00:48,111 [INFO] uvicorn.error: Started server process [37852]
+2026-05-27 12:00:48,112 [INFO] uvicorn.error: Waiting for application startup.
+2026-05-27 12:00:48,114 [TRACE] uvicorn.asgi: ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2026-05-27 12:00:48,114 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.startup'}
+2026-05-27 12:00:48,120 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager started
+2026-05-27 12:00:48,120 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2026-05-27 12:00:48,120 [INFO] uvicorn.error: Application startup complete.
+2026-05-27 12:00:48,131 [INFO] uvicorn.error: Uvicorn running on http://localhost:8003 (Press CTRL+C to quit)
+2026-05-27 12:00:51,613 [TRACE] uvicorn.error: ::1:63468 - HTTP connection made
+2026-05-27 12:00:51,614 [TRACE] uvicorn.asgi: ::1:63468 - ASGI [2] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 63468), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,617 [TRACE] uvicorn.asgi: ::1:63468 - ASGI [2] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:00:51,617 [INFO] uvicorn.access: ::1:63468 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:00:51,618 [TRACE] uvicorn.asgi: ::1:63468 - ASGI [2] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:00:51,618 [TRACE] uvicorn.asgi: ::1:63468 - ASGI [2] Completed
+2026-05-27 12:00:51,620 [TRACE] uvicorn.error: ::1:63468 - HTTP connection lost
+2026-05-27 12:00:51,625 [TRACE] uvicorn.error: ::1:63469 - HTTP connection made
+2026-05-27 12:00:51,627 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 63469), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,630 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: da8d0b7689b94bed9dcc0d868bd42a76
+2026-05-27 12:00:51,630 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Receive {'type': 'http.request', 'body': '<330 bytes>', 'more_body': False}
+2026-05-27 12:00:51,636 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:00:51,636 [INFO] uvicorn.access: ::1:63469 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:00:51,641 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Send {'type': 'http.response.body', 'body': '<453 bytes>', 'more_body': True}
+2026-05-27 12:00:51,645 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:00:51,645 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Receive {'type': 'http.disconnect'}
+2026-05-27 12:00:51,647 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [3] Completed
+2026-05-27 12:00:51,664 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [4] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 63469), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,669 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [4] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:00:51,670 [INFO] uvicorn.access: ::1:63469 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:00:51,670 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [4] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:00:51,673 [TRACE] uvicorn.asgi: ::1:63469 - ASGI [4] Completed
+2026-05-27 12:00:51,677 [TRACE] uvicorn.error: ::1:63469 - HTTP connection lost
+2026-05-27 12:00:51,681 [TRACE] uvicorn.error: ::1:57170 - HTTP connection made
+2026-05-27 12:00:51,682 [TRACE] uvicorn.error: ::1:57171 - HTTP connection made
+2026-05-27 12:00:51,683 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [5] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57170), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,683 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [5] Receive {'type': 'http.request', 'body': '<54 bytes>', 'more_body': False}
+2026-05-27 12:00:51,685 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [5] Send {'type': 'http.response.start', 'status': <HTTPStatus.ACCEPTED: 202>, 'headers': '<...>'}
+2026-05-27 12:00:51,685 [INFO] uvicorn.access: ::1:57170 - "POST /mcp/ HTTP/1.1" 202
+2026-05-27 12:00:51,686 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [5] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:00:51,686 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [5] Completed
+2026-05-27 12:00:51,688 [TRACE] uvicorn.asgi: ::1:57171 - ASGI [6] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57171), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,688 [TRACE] uvicorn.asgi: ::1:57171 - ASGI [6] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:00:51,688 [INFO] uvicorn.access: ::1:57171 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:00:51,689 [TRACE] uvicorn.asgi: ::1:57171 - ASGI [6] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:00:51,689 [TRACE] uvicorn.asgi: ::1:57171 - ASGI [6] Completed
+2026-05-27 12:00:51,694 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [7] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57170), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,696 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [7] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:00:51,696 [INFO] uvicorn.access: ::1:57170 - "GET /mcp HTTP/1.1" 307
+2026-05-27 12:00:51,697 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [7] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:00:51,697 [TRACE] uvicorn.asgi: ::1:57170 - ASGI [7] Completed
+2026-05-27 12:00:51,697 [TRACE] uvicorn.error: ::1:57171 - HTTP connection lost
+2026-05-27 12:00:51,699 [TRACE] uvicorn.error: ::1:57172 - HTTP connection made
+2026-05-27 12:00:51,699 [TRACE] uvicorn.error: ::1:57170 - HTTP connection lost
+2026-05-27 12:00:51,701 [TRACE] uvicorn.error: ::1:57173 - HTTP connection made
+2026-05-27 12:00:51,701 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57172), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,701 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Receive {'type': 'http.request', 'body': '<79 bytes>', 'more_body': False}
+2026-05-27 12:00:51,703 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 57173), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:00:51,706 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:00:51,706 [INFO] uvicorn.access: ::1:57172 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:00:51,708 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:00:51,708 [INFO] uvicorn.access: ::1:57173 - "GET /mcp/ HTTP/1.1" 200
+2026-05-27 12:00:51,712 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:00:51,713 [INFO] mcp.server.lowlevel.server: Processing request of type SetLevelRequest
+2026-05-27 12:00:51,715 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Send {'type': 'http.response.body', 'body': '<62 bytes>', 'more_body': True}
+2026-05-27 12:00:51,716 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:00:51,719 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Receive {'type': 'http.disconnect'}
+2026-05-27 12:00:51,719 [TRACE] uvicorn.asgi: ::1:57172 - ASGI [8] Completed
+2026-05-27 12:00:56,715 [TRACE] uvicorn.error: ::1:57172 - HTTP connection lost
+2026-05-27 12:01:06,704 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:01:21,711 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:01:36,695 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:01:51,688 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:06,702 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:13,408 [TRACE] uvicorn.error: ::1:49668 - HTTP connection made
+2026-05-27 12:02:13,411 [TRACE] uvicorn.asgi: ::1:49668 - ASGI [10] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 49668), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,411 [TRACE] uvicorn.asgi: ::1:49668 - ASGI [10] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:02:13,412 [INFO] uvicorn.access: ::1:49668 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49668 - ASGI [10] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49668 - ASGI [10] Completed
+2026-05-27 12:02:13,412 [TRACE] uvicorn.error: ::1:49668 - HTTP connection lost
+2026-05-27 12:02:13,412 [TRACE] uvicorn.error: ::1:49670 - HTTP connection made
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 49670), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,412 [INFO] mcp.server.streamable_http_manager: Created new transport with session ID: 21b493c4bfff4f34b0742d0a8ede8ace
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Receive {'type': 'http.request', 'body': '<330 bytes>', 'more_body': False}
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:02:13,412 [INFO] uvicorn.access: ::1:49670 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Send {'type': 'http.response.body', 'body': '<453 bytes>', 'more_body': True}
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:02:13,412 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Receive {'type': 'http.disconnect'}
+2026-05-27 12:02:13,417 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [11] Completed
+2026-05-27 12:02:13,417 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [12] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 49670), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,417 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [12] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:02:13,417 [INFO] uvicorn.access: ::1:49670 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:02:13,417 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [12] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:02:13,417 [TRACE] uvicorn.asgi: ::1:49670 - ASGI [12] Completed
+2026-05-27 12:02:13,417 [TRACE] uvicorn.error: ::1:49670 - HTTP connection lost
+2026-05-27 12:02:13,417 [TRACE] uvicorn.error: ::1:49671 - HTTP connection made
+2026-05-27 12:02:13,427 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [13] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 49671), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,427 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [13] Receive {'type': 'http.request', 'body': '<54 bytes>', 'more_body': False}
+2026-05-27 12:02:13,427 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [13] Send {'type': 'http.response.start', 'status': <HTTPStatus.ACCEPTED: 202>, 'headers': '<...>'}
+2026-05-27 12:02:13,427 [INFO] uvicorn.access: ::1:49671 - "POST /mcp/ HTTP/1.1" 202
+2026-05-27 12:02:13,427 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [13] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [13] Completed
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [14] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 49671), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [14] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:02:13,429 [INFO] uvicorn.access: ::1:49671 - "GET /mcp HTTP/1.1" 307
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [14] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:49671 - ASGI [14] Completed
+2026-05-27 12:02:13,429 [TRACE] uvicorn.error: ::1:54343 - HTTP connection made
+2026-05-27 12:02:13,429 [TRACE] uvicorn.error: ::1:49671 - HTTP connection lost
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:54343 - ASGI [15] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 54343), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:54343 - ASGI [15] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:02:13,429 [INFO] uvicorn.access: ::1:54343 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:02:13,429 [TRACE] uvicorn.asgi: ::1:54343 - ASGI [15] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:02:13,433 [TRACE] uvicorn.asgi: ::1:54343 - ASGI [15] Completed
+2026-05-27 12:02:13,433 [TRACE] uvicorn.error: ::1:54344 - HTTP connection made
+2026-05-27 12:02:13,433 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 54344), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,435 [TRACE] uvicorn.error: ::1:54343 - HTTP connection lost
+2026-05-27 12:02:13,435 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:02:13,435 [INFO] uvicorn.access: ::1:54344 - "GET /mcp/ HTTP/1.1" 200
+2026-05-27 12:02:13,435 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:02:13,435 [TRACE] uvicorn.error: ::1:54345 - HTTP connection made
+2026-05-27 12:02:13,435 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 54345), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:02:13,435 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Receive {'type': 'http.request', 'body': '<79 bytes>', 'more_body': False}
+2026-05-27 12:02:13,435 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:02:13,435 [INFO] uvicorn.access: ::1:54345 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:02:13,435 [INFO] mcp.server.lowlevel.server: Processing request of type SetLevelRequest
+2026-05-27 12:02:13,440 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Send {'type': 'http.response.body', 'body': '<62 bytes>', 'more_body': True}
+2026-05-27 12:02:13,440 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:02:13,440 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Receive {'type': 'http.disconnect'}
+2026-05-27 12:02:13,440 [TRACE] uvicorn.asgi: ::1:54345 - ASGI [17] Completed
+2026-05-27 12:02:18,444 [TRACE] uvicorn.error: ::1:54345 - HTTP connection lost
+2026-05-27 12:02:21,685 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:28,457 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:36,750 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:43,457 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:51,750 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:02:58,449 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:06,769 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:13,470 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:21,763 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:28,488 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:36,771 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:43,501 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:51,779 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:03:58,508 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:06,806 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:13,518 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:21,807 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:28,542 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:36,818 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:43,567 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:51,810 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:04:58,582 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:06,841 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:13,585 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:21,856 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:28,579 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:36,867 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:43,592 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:51,868 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:05:58,600 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:06,862 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:13,607 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:21,868 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:28,634 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:36,880 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:43,638 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:51,882 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:06:58,641 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:06,883 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:13,642 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:21,873 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:28,665 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:36,901 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:43,653 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:51,903 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:07:58,682 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:06,916 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:13,686 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:21,946 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:28,706 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:36,948 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:43,706 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:51,963 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:08:58,709 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:06,980 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:13,714 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:21,999 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:28,734 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:36,987 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:43,748 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:52,004 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:09:58,733 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:07,009 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:13,757 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:21,998 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:28,771 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:37,014 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:43,793 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:52,011 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:10:58,808 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:07,027 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:13,837 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:22,031 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:28,869 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:37,058 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:43,901 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:52,073 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:11:58,901 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:07,088 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:13,915 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:22,091 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:28,923 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:37,106 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:43,918 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:52,131 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:12:58,931 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:07,121 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:13,955 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:22,128 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:28,940 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:37,128 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:43,955 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:52,113 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:13:58,963 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:07,128 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:13,957 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:22,137 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:28,956 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:37,140 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:43,965 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:52,165 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:14:58,968 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:07,176 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:13,976 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:22,170 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:28,968 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:37,181 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:43,971 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:52,210 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:15:58,973 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:07,205 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:13,980 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:22,193 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:29,003 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:37,203 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:44,001 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:52,207 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:16:59,014 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:07,204 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:14,034 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:22,225 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:25,057 [TRACE] uvicorn.error: ::1:53848 - HTTP connection made
+2026-05-27 12:17:25,058 [TRACE] uvicorn.asgi: ::1:53848 - ASGI [18] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 53848), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:17:25,058 [TRACE] uvicorn.asgi: ::1:53848 - ASGI [18] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:17:25,058 [INFO] uvicorn.access: ::1:53848 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:17:25,058 [TRACE] uvicorn.asgi: ::1:53848 - ASGI [18] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:17:25,058 [TRACE] uvicorn.asgi: ::1:53848 - ASGI [18] Completed
+2026-05-27 12:17:25,058 [TRACE] uvicorn.error: ::1:53848 - HTTP connection lost
+2026-05-27 12:17:25,066 [TRACE] uvicorn.error: ::1:53849 - HTTP connection made
+2026-05-27 12:17:25,066 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 53849), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:17:25,069 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Receive {'type': 'http.request', 'body': '<89 bytes>', 'more_body': False}
+2026-05-27 12:17:25,071 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:17:25,071 [INFO] uvicorn.access: ::1:53849 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:17:25,073 [INFO] mcp.server.lowlevel.server: Processing request of type ListResourcesRequest
+2026-05-27 12:17:25,086 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Send {'type': 'http.response.body', 'body': '<488 bytes>', 'more_body': True}
+2026-05-27 12:17:25,086 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:17:25,086 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Receive {'type': 'http.disconnect'}
+2026-05-27 12:17:25,086 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [19] Completed
+2026-05-27 12:17:28,592 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [20] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 53849), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp', 'raw_path': b'/mcp', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:17:28,592 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [20] Send {'type': 'http.response.start', 'status': 307, 'headers': '<...>'}
+2026-05-27 12:17:28,594 [INFO] uvicorn.access: ::1:53849 - "POST /mcp HTTP/1.1" 307
+2026-05-27 12:17:28,594 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [20] Send {'type': 'http.response.body', 'body': '<0 bytes>'}
+2026-05-27 12:17:28,594 [TRACE] uvicorn.asgi: ::1:53849 - ASGI [20] Completed
+2026-05-27 12:17:28,596 [TRACE] uvicorn.error: ::1:53849 - HTTP connection lost
+2026-05-27 12:17:28,598 [TRACE] uvicorn.error: ::1:55026 - HTTP connection made
+2026-05-27 12:17:28,600 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('::1', 8003), 'client': ('::1', 55026), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/mcp/', 'raw_path': b'/mcp/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2026-05-27 12:17:28,600 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Receive {'type': 'http.request', 'body': '<99 bytes>', 'more_body': False}
+2026-05-27 12:17:28,602 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2026-05-27 12:17:28,604 [INFO] uvicorn.access: ::1:55026 - "POST /mcp/ HTTP/1.1" 200
+2026-05-27 12:17:28,606 [INFO] mcp.server.lowlevel.server: Processing request of type ListResourceTemplatesRequest
+2026-05-27 12:17:28,610 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Send {'type': 'http.response.body', 'body': '<84 bytes>', 'more_body': True}
+2026-05-27 12:17:28,612 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2026-05-27 12:17:28,616 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Receive {'type': 'http.disconnect'}
+2026-05-27 12:17:28,618 [TRACE] uvicorn.asgi: ::1:55026 - ASGI [21] Completed
+2026-05-27 12:17:29,028 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:33,613 [TRACE] uvicorn.error: ::1:55026 - HTTP connection lost
+2026-05-27 12:17:37,236 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:44,050 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Send {'type': 'http.response.body', 'body': '<45 bytes>', 'more_body': True}
+2026-05-27 12:17:48,900 [TRACE] uvicorn.error: ::1:54344 - HTTP connection lost
+2026-05-27 12:17:48,902 [TRACE] uvicorn.error: ::1:57173 - HTTP connection lost
+2026-05-27 12:17:48,903 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Receive {'type': 'http.disconnect'}
+2026-05-27 12:17:48,904 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Receive {'type': 'http.disconnect'}
+2026-05-27 12:17:48,909 [TRACE] uvicorn.asgi: ::1:54344 - ASGI [16] Completed
+2026-05-27 12:17:48,910 [TRACE] uvicorn.asgi: ::1:57173 - ASGI [9] Completed
+2026-05-27 12:18:01,651 [INFO] uvicorn.error: Shutting down
+2026-05-27 12:18:01,763 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-05-27 12:18:01,765 [TRACE] uvicorn.asgi: ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2026-05-27 12:18:01,766 [INFO] mcp.server.streamable_http: Terminating session: da8d0b7689b94bed9dcc0d868bd42a76
+2026-05-27 12:18:01,766 [INFO] mcp.server.streamable_http: Terminating session: 21b493c4bfff4f34b0742d0a8ede8ace
+2026-05-27 12:18:01,766 [INFO] mcp.server.streamable_http_manager: StreamableHTTP session manager shutting down
+2026-05-27 12:18:01,768 [TRACE] uvicorn.asgi: ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2026-05-27 12:18:01,768 [TRACE] uvicorn.asgi: ASGI [1] Completed
+2026-05-27 12:18:01,768 [INFO] uvicorn.error: Application shutdown complete.
+2026-05-27 12:18:01,768 [INFO] uvicorn.error: Finished server process [37852]
